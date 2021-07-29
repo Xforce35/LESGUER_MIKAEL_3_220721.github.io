@@ -18,3 +18,14 @@ a {
     color: #000;
     font-family: "Shrikhand", Roboto, sans-serif;
 }
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main__header {
+    &>h1 {
+        text-align: center;
+    }
+}
