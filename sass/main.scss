@@ -16,16 +16,31 @@ body {
 a {
     text-decoration: none;
     color: #000;
-    font-family: "Shrikhand", Roboto, sans-serif;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .main__header {
     &>h1 {
         text-align: center;
+        font-family: "Shrikhand", Roboto, sans-serif;
+    }
+}
+
+$grey-maps: #eaeaea;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maps {
+    @include flex-center;
+    background: $grey-maps;
+    &__search {
+        &>input {
+            border: none;
+            background: $grey-maps;
+        }
+        
     }
 }
