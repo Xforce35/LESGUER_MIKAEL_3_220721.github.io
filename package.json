@@ -1,0 +1,19 @@
+{
+  "name": "p3_ohmyfood_lesguer_mikael",
+  "version": "1.0.0",
+  "description": "Dynamisez une page web avec des animations CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch ./sass/main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xforce35/P3_Ohmyfood_LESGUER_MIKAEL.github.io.git"
+  },
+  "author": "MikeDEV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xforce35/P3_Ohmyfood_LESGUER_MIKAEL.github.io/issues"
+  },
+  "homepage": "https://github.com/Xforce35/P3_Ohmyfood_LESGUER_MIKAEL.github.io#readme"
+}
