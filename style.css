@@ -16,16 +16,22 @@ body {
 a {
   text-decoration: none;
   color: #000;
-  font-family: "Shrikhand", Roboto, sans-serif;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
 }
 
 .main__header > h1 {
   text-align: center;
+  font-family: "Shrikhand", Roboto, sans-serif;
+}
+
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaeaea;
+}
+.maps__search > input {
+  border: none;
+  background: #eaeaea;
 }
 
 /*# sourceMappingURL=style.css.map */
