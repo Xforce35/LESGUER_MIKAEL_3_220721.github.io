@@ -32,6 +32,10 @@ a {
 .maps__search > input {
   border: none;
   background: #eaeaea;
+  font-size: 1rem;
+  padding: 20px 5px;
+  text-align: center;
+  width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

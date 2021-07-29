@@ -40,6 +40,10 @@ $grey-maps: #eaeaea;
         &>input {
             border: none;
             background: $grey-maps;
+            font-size: 1rem;
+            padding: 20px 5px;
+            text-align: center;
+            width: 150px;
         }
         
     }
