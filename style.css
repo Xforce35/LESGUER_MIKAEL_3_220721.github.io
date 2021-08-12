@@ -48,10 +48,6 @@
   position: relative;
   background-color: black;
 }
-.menu__btn:hover::before {
-  opacity: 1;
-  scale: 1;
-}
 .menu__btn::before {
   opacity: 0;
   scale: 0.2;
@@ -63,6 +59,10 @@
   height: 100%;
   width: 100%;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+}
+.menu__btn:hover::before {
+  opacity: 1;
+  scale: 1;
 }
 .menu__like {
   transition-duration: 0.25s;
