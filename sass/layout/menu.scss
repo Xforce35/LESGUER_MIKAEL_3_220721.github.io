@@ -129,6 +129,8 @@
     text-overflow: ellipsis;
     overflow: hidden;
     flex: 1;
+    align-items: flex-start;
+    font-size: .80rem;
   }
     &__title {
     margin: 0;
@@ -137,7 +139,8 @@
     overflow: hidden;
   }
   &__description {
-    margin: 0;
+    margin: 0px;
+    margin-top: 2px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -147,6 +150,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    font-size: .80rem;
     padding-left: 0.5rem;
   }
   &__confirmation {
@@ -158,4 +162,28 @@
     justify-content:center;
     transition-duration: 0.5s;
   }
+  &:hover &__confirmation {
+    margin-right: -1rem;
+  }
+}
+
+.wrapBtn {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.commandBtn {
+  border: 0;
+    padding: .75rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(351deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
 }
