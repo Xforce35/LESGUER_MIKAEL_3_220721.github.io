@@ -48,9 +48,12 @@
   position: relative;
   background-color: black;
 }
+.menu__btn:hover::before {
+  opacity: 1;
+  scale: 1;
+}
 .menu__btn::before {
   opacity: 0;
-  scale: 0.2;
   transition: 0.5s;
   content: "";
   position: absolute;
@@ -59,10 +62,6 @@
   height: 100%;
   width: 100%;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
-}
-.menu__btn:hover::before {
-  opacity: 1;
-  scale: 1;
 }
 .menu__like {
   transition-duration: 0.25s;
@@ -79,6 +78,7 @@
 }
 .menu__btn:hover .menu__like--noBg {
   opacity: 0;
+  scale: 0.2;
 }
 
 .submenus {
@@ -192,7 +192,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  max-width: 2000px;
   font-size: 1rem;
 }
 
@@ -340,16 +339,6 @@ header {
 }
 .card__subtitle {
   margin: 0;
-}
-.card__btn {
-  height: 2rem;
-  width: 2rem;
-  background-color: transparent;
-  border: transparent 0px solid;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .card__like {
   background-color: white !important;

@@ -13,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  max-width: 2000px;
   font-size: 1rem;
 }
 
@@ -165,17 +164,6 @@ header {
 
   &__subtitle {
     margin: 0;
-  }
-
-  &__btn {
-    height: 2rem;
-    width: 2rem;
-    background-color: transparent;
-    border: transparent 0px solid;
-    padding: 0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
   }
 
   &__like {
