@@ -51,10 +51,12 @@
     
     &:hover::before {
       opacity: 1;
+      scale: 1;
     }
     
     &::before {
       opacity: 0;
+      scale: 0.2;
       transition: 0.5s;
       content: "";
       position: absolute;
