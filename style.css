@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  max-width: 2000px;
   font-size: 1rem;
 }
 
@@ -218,24 +219,23 @@ header {
 
 footer {
   background-color: #353535;
-  padding: 1rem;
+  padding: 25px;
   color: white;
 }
-
-h3 {
-  font-family: "Shrikhand", "cursive";
-  margin: 0 0 1rem;
+footer h3 {
+  font-family: "Shrikhand", "sans-serif";
+  margin: 0px;
   font-size: 1.2rem;
+  font-weight: 500;
 }
-
-ul {
+footer ul {
   list-style-type: none;
   padding: 0px;
 }
-ul > li {
+footer ul > li {
   padding: 5px 0 5px 0;
 }
-ul > li a {
+footer ul > li a {
   color: white;
 }
 
