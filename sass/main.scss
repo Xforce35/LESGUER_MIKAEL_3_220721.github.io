@@ -1,5 +1,5 @@
 @import "./utils/variables", "./utils/mixins", "./utils/functions";
-@import "./layout/menu.scss";
+@import "./layout/header.scss","./layout/menu.scss";
 
 * {
   box-sizing: border-box;
@@ -25,17 +25,6 @@ li {
     list-style-type: none;
 }
 
-header {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.logo {
-        padding: 20px 0px 20px 0px;
-        width: 150px;
-}
 
 .maps {
     @include flex-center;
