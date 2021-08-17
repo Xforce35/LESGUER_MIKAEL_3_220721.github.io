@@ -161,6 +161,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  font-size: 0.75rem;
 }
 .menuItem__price {
   font-weight: bold;
