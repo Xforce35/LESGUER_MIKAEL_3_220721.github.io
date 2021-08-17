@@ -167,6 +167,27 @@
   &:hover &__confirmation {
     margin-right: -1rem;
   }
+
+    &__wrapIcon {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 100px;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+
+  }
+
+  &:hover &__wrapIcon {
+    transform: rotate(0);
+  }
+
+    &__icon {
+    color: $color-tertiary;
+  }
 }
 
 .wrapBtn {
