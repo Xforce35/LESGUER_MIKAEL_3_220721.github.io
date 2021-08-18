@@ -99,7 +99,6 @@
 }
 .menu__btn:hover::before {
   opacity: 1;
-  scale: 1;
 }
 .menu__btn::before {
   opacity: 0;
@@ -127,7 +126,6 @@
 }
 .menu__btn:hover .menu__like--noBg {
   opacity: 0;
-  scale: 0.2;
 }
 
 .submenus {
