@@ -1,5 +1,5 @@
 @import "./utils/variables", "./utils/mixins", "./utils/keyframes.scss", "./utils/functions";
-@import "./layout/header.scss","./layout/menu.scss";
+@import "./layout/header.scss","./layout/menu.scss","./layout/loader.scss";
 
 * {
   box-sizing: border-box;
@@ -67,9 +67,11 @@ li {
 }
 .operation__steps {
     padding: 0px;
+    color: rgb(0 0 0);
+    font-weight: bold;
     &>ul {
         margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin-block-end: 1em;   
     }
     &>li {
         @include border;
@@ -93,6 +95,7 @@ li {
     &--icon {
         padding-left: 15px;
         padding-right: 10px;
+        color: #7e7e7e;
     }
 }
 
