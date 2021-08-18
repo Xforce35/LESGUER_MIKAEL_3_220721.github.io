@@ -1,0 +1,17 @@
+.maps {
+    @include flex-center;
+    background: $grey-maps;
+    box-shadow: inset 0px 5px 5px 0px #dddddd;
+    &__search {
+        &>input {
+            border: none;
+            background: $grey-maps;
+            font-size: 1rem;
+            padding: 20px 5px;
+            margin-top: 5px;
+            text-align: center;
+            width: 150px;
+        }
+        
+    }
+}
