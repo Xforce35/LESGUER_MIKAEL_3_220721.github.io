@@ -122,7 +122,7 @@
   display: flex;
   border-radius: 0.75rem;
   margin: 1rem 0;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 6px #aaa;
   overflow: hidden;
   cursor: pointer;
   animation: itemAppear .6s;
@@ -139,6 +139,7 @@
     font-size: .80rem;
   }
     &__title {
+    font-size: 0.875rem;
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;

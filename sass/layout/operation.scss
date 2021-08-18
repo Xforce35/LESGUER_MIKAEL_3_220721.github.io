@@ -7,7 +7,7 @@
     font-weight: bold;
     &>ul {
         margin-block-start: 1em;
-        margin-block-end: 1em;   
+        margin-block-end: 1em; 
     }
     &>li {
         @include border;
@@ -20,6 +20,7 @@
         margin: 15px 0px 15px 0px;
         border-radius: 20px;
         background-color: $grey-about;
+        box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);  
         }
     &--number {
         background-color: $color-primary;
