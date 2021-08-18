@@ -1,0 +1,24 @@
+.btn__about {
+    &>button {
+    border: 1px solid transparent;
+    padding: .75rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: #fff;
+    background-image: $linear-gradient;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    }
+}
+
+.card{
+  &__badge {
+    background-color: $color-tertiary;
+    color: darken($color-tertiary, 50%);
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: absolute;
+    top: 1rem;
+    right: 0.75rem;
+  }
+}

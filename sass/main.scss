@@ -1,5 +1,6 @@
-@import "./utils/variables", "./utils/mixins", "./utils/keyframes.scss", "./utils/functions";
+@import "./utils/variables", "./utils/mixins", "./utils/keyframes.scss", "./utils/functions", "./utils/breakpoint.scss";
 @import "./layout/header.scss","./layout/menu.scss", "./layout/about.scss" , "./layout/operation.scss","./layout/maps.scss" , "./layout/footer.scss","./layout/restaurant.scss" ,"./layout/loader.scss";
+@import "./components/buttons.scss";
 
 * {
   box-sizing: border-box;
