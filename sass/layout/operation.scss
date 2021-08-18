@@ -1,10 +1,29 @@
 .operation {
     padding: 15px;
+    @include desktop{
+        padding: 0;
+    }
+    h2 {
+        @include desktop{
+        margin: 0;
+        padding: 1rem 1rem 1rem 1rem;
+        text-align: center;
+        background-color: rgb(234 234 234);
+        box-shadow: inset 0px 5px 5px 0px #dddddd;
+        height: 63px;
+        }
+    }
 }
 .operation__steps {
     padding: 0px;
     color: rgb(0 0 0);
     font-weight: bold;
+    @include desktop{
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     &>ul {
         margin-block-start: 1em;
         margin-block-end: 1em; 
@@ -20,7 +39,14 @@
         margin: 15px 0px 15px 0px;
         border-radius: 20px;
         background-color: $grey-about;
-        box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);  
+        box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+        &:hover{
+            background: rgb(242 234 251);
+        }
+        @include desktop {
+            width: 90%;
+            border: 2px solid rgb(147 86 220 / 77%);
+        }
         }
     &--number {
         background-color: $color-primary;
@@ -28,10 +54,17 @@
         border-radius: 50%;
         padding: 5px 9px;
         margin-left: -37px;
+        @include desktop{
+           margin-left: -39px; 
+        }
         }
     &--icon {
         padding-left: 15px;
         padding-right: 10px;
         color: #7e7e7e;
+        @include desktop {
+            padding-left: 20px;
+            padding-right: 90px;
+        }
     }
 }

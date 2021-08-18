@@ -4,5 +4,19 @@
     background-color: $grey-about;
     >h1 {
         font-size: 1.5em;
+        @include desktop{
+            font-size: 1.8rem;
+        }
     }
+     p {
+        @include desktop{
+            font-size: 1.4rem;
+            padding: 3rem;
+            margin: 0;
+        }
+        @include large {
+            font-size: 1.6rem;
+            padding: 4rem;
+        }
+     }
 }

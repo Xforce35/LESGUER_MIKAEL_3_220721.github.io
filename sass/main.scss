@@ -25,3 +25,26 @@ a {
 li {
     list-style-type: none;
 }
+
+.desktop {
+  @include desktop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 5px solid #9356dc;
+    box-shadow: 1em 0 0 #666;
+    background-color: rgb(246 246 246)
+  }
+}
+
+.reservation {
+  @include desktop{
+    grid-column-start: 1;
+    border-right: 3px solid rgb(221 221 221);
+  }
+}
+
+.function {
+  @include desktop {
+    grid-column-start: 2;
+  }
+}
