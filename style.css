@@ -389,6 +389,11 @@
     border: 2px solid rgba(147, 86, 220, 0.77);
   }
 }
+@media screen and (min-width: 768px) {
+  .operation__steps > li {
+    margin: 15px 30px 15px 0px;
+  }
+}
 .operation__steps--number {
   background-color: #9356DC;
   color: white;
@@ -405,6 +410,9 @@
   padding-left: 15px;
   padding-right: 10px;
   color: #7e7e7e;
+}
+.operation__steps--icon:hover {
+  color: #9356DC;
 }
 @media screen and (min-width: 1024px) {
   .operation__steps--icon {
