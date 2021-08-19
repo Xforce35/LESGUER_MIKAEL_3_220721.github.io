@@ -55,9 +55,10 @@
 }
 
 .backhome {
-  left: 15px;
-  top: 30px;
+  left: 25px;
   position: absolute;
+  color: #353535;
+  font-size: 1.2rem;
 }
 
 .heroImg {
@@ -312,7 +313,7 @@
     margin: 0;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1440px) {
   .about p {
     font-size: 1.6rem;
     padding: 4rem;
@@ -342,6 +343,15 @@
   padding: 0px;
   color: black;
   font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .operation__steps {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 1024px) {
   .operation__steps {
@@ -425,6 +435,9 @@ footer {
   padding: 25px;
   color: white;
 }
+footer:hover {
+  color: #FF79DA;
+}
 footer h3 {
   font-family: "Shrikhand", "sans-serif";
   margin: 0px;
@@ -453,6 +466,9 @@ footer ul > li {
 footer ul > li a {
   color: white;
 }
+footer ul > li a:hover {
+  color: #FF79DA;
+}
 
 .fa-utensils {
   margin-right: 12px;
@@ -465,6 +481,21 @@ footer ul > li a {
 .restaurants {
   background-color: #f6f6f6;
   padding: 15px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants {
+    padding: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .restaurants__title {
+    text-align: center;
+    text-decoration: underline #9356DC;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
 }
 
 .cards {
@@ -546,6 +577,12 @@ footer ul > li a {
     left: 35%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .loader__food {
+    top: 30%;
+    left: 40%;
+  }
+}
 .loader__food span {
   display: inline-block;
   width: 5px;
@@ -565,8 +602,18 @@ footer ul > li a {
     left: 40%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .loader__fork {
+    top: 40%;
+  }
+}
 .loader__fork-img {
   width: 150px;
+}
+@media screen and (min-width: 1024px) {
+  .loader__fork-img {
+    width: 250px;
+  }
 }
 
 .loader__food span:nth-child(1) {
@@ -626,8 +673,9 @@ footer ul > li a {
 
 .card__badge {
   background-color: #99E2D0;
-  color: #1b6150;
+  color: #139273;
   padding: 0.5rem;
+  font-weight: bold;
   border-radius: 0.125rem;
   position: absolute;
   top: 1rem;

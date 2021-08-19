@@ -18,6 +18,13 @@
     padding: 0px;
     color: rgb(0 0 0);
     font-weight: bold;
+    @include tablet{
+       flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+    }
     @include desktop{
         padding-left: 15px;
         display: flex;

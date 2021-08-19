@@ -22,6 +22,10 @@
     @include tablet{
       left: 35%;
     }
+    @include desktop{
+      top: 30%;
+      left: 40%;
+    }
         span {
             display: inline-block;
             width: 5px;
@@ -39,8 +43,14 @@
   @include tablet{
     left: 40%;
   }
+  @include desktop{
+    top:40%;
+  }
   &-img{
       width: 150px;
+      @include desktop {
+        width: 250px;
+      }
   }
 }
 .loader__food span:nth-child(1) {

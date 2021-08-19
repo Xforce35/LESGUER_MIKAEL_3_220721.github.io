@@ -1,6 +1,18 @@
 .restaurants {
     background-color: $grey-about;
     padding: 15px;
+    @include desktop{
+      padding: 25px;
+      margin-bottom: 10px;
+    }
+}
+.restaurants__title {
+  @include desktop {
+    text-align: center;
+    text-decoration: underline $color-primary;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
 }
 
 .cards {

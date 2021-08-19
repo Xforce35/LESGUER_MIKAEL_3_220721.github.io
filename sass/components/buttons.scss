@@ -24,8 +24,9 @@
 .card{
   &__badge {
     background-color: $color-tertiary;
-    color: darken($color-tertiary, 50%);
+    color: #139273;
     padding: 0.5rem;
+    font-weight: bold;
     border-radius: 0.125rem;
     position: absolute;
     top: 1rem;
