@@ -33,6 +33,9 @@
   color: inherit;
   display: block;
   box-shadow: 4px 4px 6px #aaa;
+  &:hover{
+    box-shadow: 4px 4px 6px $color-primary;
+  }
 
   &__img {
     height: 12rem;

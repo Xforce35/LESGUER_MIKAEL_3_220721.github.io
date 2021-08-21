@@ -24,7 +24,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
     }
     @include desktop{
         padding-left: 15px;
@@ -50,13 +49,22 @@
         box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
         &:hover{
             background: rgb(242 234 251);
-        }
-        @include desktop {
-            width: 90%;
-            border: 2px solid rgb(147 86 220 / 77%);
+            box-shadow: rgb(0 0 0) 4px 4px 6px;
+            .descendant {
+                color: $color-primary;
+            }
         }
         @include tablet {
             margin: 15px 30px 15px 0px;
+        }
+        @include desktop {
+            font-size: 1rem;
+            width: 70%;
+            border: 2px solid rgb(147 86 220 / 77%);
+        }
+        @include large {
+            font-size: 1.4rem;
+            width: 60%;
         }
         }
     &--number {
@@ -68,7 +76,7 @@
         @include desktop{
            margin-left: -39px; 
         }
-        }
+    }
     &--icon {
         padding-left: 15px;
         padding-right: 10px;
@@ -77,7 +85,13 @@
             color: $color-primary;
         }
         @include desktop {
-            padding-left: 20px;
+            font-size: x-large;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+        @include large {
+            font-size: 1.6rem;
+            padding-left: 60px;
             padding-right: 90px;
         }
     }

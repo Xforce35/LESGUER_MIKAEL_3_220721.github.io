@@ -2,9 +2,7 @@ footer {
   background-color: #353535;
   padding: 25px;
   color: white;
-  &:hover{
-    color: $color-secondary;
-  }
+  
 
   h3 {
     font-family: "Shrikhand", "sans-serif";
@@ -15,6 +13,9 @@ footer {
       display: flex;
       justify-content: center;
     }
+    &:hover{
+    color: $color-primary;
+  }
   }
   ul {
     list-style-type: none;
@@ -30,7 +31,7 @@ footer {
       a {
         color: white;
         &:hover{
-          color: $color-secondary;
+          color: $color-primary;
         }
       }
     }

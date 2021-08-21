@@ -382,16 +382,27 @@
 }
 .operation__steps > li:hover {
   background: #f2eafb;
+  box-shadow: black 4px 4px 6px;
 }
-@media screen and (min-width: 1024px) {
-  .operation__steps > li {
-    width: 90%;
-    border: 2px solid rgba(147, 86, 220, 0.77);
-  }
+.operation__steps > li:hover .descendant {
+  color: #9356DC;
 }
 @media screen and (min-width: 768px) {
   .operation__steps > li {
     margin: 15px 30px 15px 0px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .operation__steps > li {
+    font-size: 1rem;
+    width: 70%;
+    border: 2px solid rgba(147, 86, 220, 0.77);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .operation__steps > li {
+    font-size: 1.4rem;
+    width: 60%;
   }
 }
 .operation__steps--number {
@@ -416,7 +427,15 @@
 }
 @media screen and (min-width: 1024px) {
   .operation__steps--icon {
-    padding-left: 20px;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .operation__steps--icon {
+    font-size: 1.6rem;
+    padding-left: 60px;
     padding-right: 90px;
   }
 }
@@ -443,9 +462,6 @@ footer {
   padding: 25px;
   color: white;
 }
-footer:hover {
-  color: #FF79DA;
-}
 footer h3 {
   font-family: "Shrikhand", "sans-serif";
   margin: 0px;
@@ -457,6 +473,9 @@ footer h3 {
     display: flex;
     justify-content: center;
   }
+}
+footer h3:hover {
+  color: #9356DC;
 }
 footer ul {
   list-style-type: none;
@@ -475,7 +494,7 @@ footer ul > li a {
   color: white;
 }
 footer ul > li a:hover {
-  color: #FF79DA;
+  color: #9356DC;
 }
 
 .fa-utensils {
@@ -526,6 +545,9 @@ footer ul > li a:hover {
   color: inherit;
   display: block;
   box-shadow: 4px 4px 6px #aaa;
+}
+.card:hover {
+  box-shadow: 4px 4px 6px #9356DC;
 }
 .card__img {
   height: 12rem;
