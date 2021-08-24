@@ -7,16 +7,22 @@
     border-radius: 100px;
     color: #fff;
     background-image: $linear-gradient;
-    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    cursor: pointer;
+    @include box-shadow;
     &:hover {
       background-color: rgb(174 128 229);
       background-blend-mode: lighten;
-      box-shadow: 4px 4px 6px #000;
+      @include hover-shadow-transition;
+      @include desktop{
+      color: $color-primary;
+      font-weight:bold;
+      font-size: 1.5rem;
+      }
     }
     @include desktop{
       width: 400px;
       height: 65px;
-      font-size: 1.4rem;
+      @include font-size(1.4rem);
     }
   }
 }
