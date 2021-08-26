@@ -1,5 +1,5 @@
 {
-  "name": "p3_ohmyfood_lesguer_mikael",
+  "name": "lesguer_mikael_3_220721.github.io",
   "version": "1.0.0",
   "description": "Dynamisez une page web avec des animations CSS",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xforce35/P3_Ohmyfood_LESGUER_MIKAEL.github.io.git"
+    "url": "git+https://github.com/Xforce35/LESGUER_MIKAEL_3_220721.github.io.git"
   },
-  "author": "MikeDEV",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Xforce35/P3_Ohmyfood_LESGUER_MIKAEL.github.io/issues"
+    "url": "https://github.com/Xforce35/LESGUER_MIKAEL_3_220721.github.io/issues"
   },
-  "homepage": "https://github.com/Xforce35/P3_Ohmyfood_LESGUER_MIKAEL.github.io#readme"
+  "homepage": "https://github.com/Xforce35/LESGUER_MIKAEL_3_220721.github.io#readme"
 }
