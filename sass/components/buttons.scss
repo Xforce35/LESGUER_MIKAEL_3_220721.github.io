@@ -14,7 +14,6 @@
       background-blend-mode: lighten;
       @include hover-shadow-transition;
       @include desktop{
-      color: $color-primary;
       font-weight:bold;
       font-size: 1.5rem;
       }

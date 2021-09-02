@@ -45,6 +45,7 @@
  @mixin color-state {
   background: $color-state;
 }
+// Box-shadow
 @mixin box-shadow-darker {
     box-shadow: black 4px 4px 6px;
 }
@@ -54,11 +55,19 @@
     transition: box-shadow 400ms;
 }
 
+@mixin box-shadow-maps {
+  box-shadow: inset 0rem 0.3125rem 0.3125rem 0rem #dddddd;
+}
+//margin
 @mixin no-margin-neither-padding {
     margin: 0;
     padding: 0;
 }
 
+@mixin no-margin {
+  margin: 0rem;
+}
+//colors
 @mixin white {
     color: $white;
 }
@@ -70,7 +79,7 @@
 @mixin font-weight($weight: bold) {
     font-weight: $weight;
 }
-
+//breakpoint
 @mixin tablet {
   @media screen and (min-width:map-get($breakpoints, tablet)){
     @content;
